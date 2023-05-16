@@ -12,6 +12,8 @@ def binary_pal(n):
 
 # TEST CASES 👇
 
+binary_pal(0) # returns True
+
 binary_pal(5) # returns True
 
 binary_pal(7) # returns True
