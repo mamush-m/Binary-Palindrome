@@ -1,12 +1,12 @@
 def binary_pal(n):
     str_bin = "{0:b}".format(n)
-    backward_bin = ''
+    reverse_bin = ''
     
     for i in range(1, len(str_bin) + 1):
         index = -i
-        backward_bin += str_bin[index]
+        reverse_bin += str_bin[index]
     
-    if str_bin == backward_bin: return True
+    if str_bin == reverse_bin: return True
     else: return False
     
 
